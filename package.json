@@ -2,6 +2,7 @@
   "name": "gulp-ojbridge",
   "version": "0.1.0",
   "description": "The gulp plugin for developing the tickle related javascripts",
+  "repository": "git@bitbucket.org:wantoto/gulp-ojbridge.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
