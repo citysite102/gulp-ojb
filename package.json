@@ -1,0 +1,21 @@
+{
+  "name": "gulp-ojbridge",
+  "version": "0.1.0",
+  "description": "The gulp plugin for developing the tickle related javascripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tickle",
+    "ojbridge",
+    "gulp"
+  ],
+  "dependencies": {
+    "through2": "^2.0.1",
+    "gulp-util": "^3.0.7",
+    "jscryptor": "^0.0.11"
+  },
+  "author": "benjamin99",
+  "license": "MIT"
+}
