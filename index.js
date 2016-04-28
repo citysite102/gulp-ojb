@@ -1,7 +1,7 @@
 var requirePostfixModifier = require('./gulp-require-postfix-modifier.js');
-var cryptor = require('./gulp-cryptor.js');
+var encrypt = require('./gulp-encrypt.js');
 
 module.exports = {
-    cryptor: cryptor,
+    encrypt: encrypt,
     requirePostfixModifier: requirePostfixModifier
 }
