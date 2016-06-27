@@ -37,7 +37,7 @@ function requirePostfixUpdator(newPostfix) {
         });
         
         file.contents = Buffer.concat(buffers);
-        this.push(file);
+        // this.push(file);
         callback();
     })
 }

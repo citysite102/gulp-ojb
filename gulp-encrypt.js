@@ -27,7 +27,8 @@ function encrypt(password) {
         var encrypted = RNCryptor.Encrypt(file.contents.toString(), password);
         file.contents = new Buffer(encrypted, 'base64');
         
-        return callback(null, file);
+        // return callback(null, file);
+        callback(null, file);
     });
 }
 
